@@ -1,0 +1,11 @@
+mutation {
+    addStudent(input:{
+      id:5,
+      email: "temp@gmail.com",
+      name:"SAad",
+      age: 123
+    }){
+      name
+      id
+    }
+  }
